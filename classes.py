@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 class UserInterface(ABC):
 
     @abstractmethod
-    def send_to_ui(self, *args):
+    def send_to_ui(self, message):
         pass
 
 class TerminaUI(UserInterface):
